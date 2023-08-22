@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-sm navbar_styles">
+      <div class="container-fluid" id="container_section">
+        <a class="navbar-brand fs-3" href="#"><strong>giard</strong>designe</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto" id="navi">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle fs-5"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Oferta
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item inter f-14" href="#">Oferta 1</a>
+                </li>
+                <li>
+                  <a class="dropdown-item inter f-14" href="#">Oferta 2</a>
+                </li>
+                <li>
+                  <a class="dropdown-item inter f-14" href="#">Oferta 3</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fs-5 inter f-14" href="#">O firmie</a>
+            </li>
+            <li class="nav-item fs-5 inter f-14">
+              <a class="nav-link" href="#">Realizacje</a>
+            </li>
+            <li class="nav-item fs-5 inter inter-14">
+              <a class="nav-link" href="#">Kontakt</a>
+            </li>
+            <li class="nav-item" id="nav-icon">
+              <button class="btn" id="toggleButton">
+                <i class="bi bi-search fs-5"></i>
+              </button>
+            </li>
+            <li>
+              <div id="placeholder">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Section-1-->
+
+    <div class="container-fluid custom-container-s1">
+      <div class="row first-row">
+        <!-- Left Column -->
+        <div class="col-md-6 d-sm-flex col-sm-12 centered-column column-s1">
+          <div class="text-area-s1">
+            <h1 class="s1-h1">
+              Nowoczesna <br />
+              aranżacja <br />
+              Twojego ogrodu
+            </h1>
+            <p class="w-75 s1-p f-16 inter">
+              Marka GiardDesign to wieloletnie doświadczenie i wysoka estetyka
+              realizacji. Oferujemy kompleksowy zakres usług z indywidualnym
+              podejściem do każdego projektu.
+            </p>
+            <button class="btn btn-success me-5 rounded-pill" id="button-1">
+              Skontaktuj się z nami
+            </button>
+            <button class="btn btn-outline-success rounded-pill">
+              Zobacz nasze realizacje <i class="bi bi-arrow-down"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-6 img-section">
+          <img src="Zdjecie6.jpg" alt="Image" class="img-fluid img-container" />
+        </div>
+      </div>
+    </div>
+
+    <!--Section-2-->
+
+    <div class="container-fluid" id="sec2-con">
+      <!-- Left Column -->
+      <div class="row centered-column" id="sec2-row">
+        <div class="col-md-8 col-sm-12" id="sec2-col">
+          <div class>
+            <p class="sec2-p f-12 inter c-green">Oferta</p>
+            <h1 class="sec2-h1 f-48 montse">
+              Działamy <span class="fst-italic">kompleksowo</span>
+            </h1>
+            <p class="w-75 f-16 inter">
+              Oferujemy kompletną obsługę inwestycji terenów zielonych.
+              Projektujemy nowoczesne ogrody przydomowe oraz rezydencjonalne.
+              Stworzymy dla Ciebie projekt, zwizualizujemy go i wcielimy w
+              życie, a na każdym etapie posłużymy radą i wieloletnim
+              doświadczeniem.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Centered Columns -->
+
+      <div class="row text-center cards">
+        <div class="col-lg-3 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="h1">
+                <i class="bi bi-pencil-fill fs-1"></i>
+              </div>
+              <h3 class="card-title f-28 montse">Projekty</h3>
+              <p class="card-text inter f-14">
+                Zaprojektujemy Twój ogród w nowoczesnym stylu i z najlepszym
+                wykorzystaniem istniejącej przestrzeni.
+              </p>
+              <a href="#" class="btn text-success text-decoration-underline"
+                >Dowiedz się więcej <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <div class="h1">
+                <i class="bi bi-eye-fill fs-1"></i>
+              </div>
+              <h3 class="card-title f-28 montse">Wizualizacje</h3>
+              <p class="card-text inter f-14">
+                Przedstawimy Ci projekty koncepcyjne w postaci wirtualnego
+                spaceru animowanego w technologii 3D.
+              </p>
+              <a href="#" class="btn text-success text-decoration-underline"
+                >Dowiedz się więcej <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-12">
+          <div class="card">
+            <div class="card-body car-body-3">
+              <div class="h1">
+                <i class="bi bi-stars card-icon fs-1"></i>
+              </div>
+              <h3 class="card-title f-28 montse">Realizacje</h3>
+              <p class="card-text card-text-3 inter f-14">
+                Zrealizujemy Twoje marzenie <br />
+                przy użyciu najnowszych rozwiązań <br />
+                i zaawansowanych technologii.
+              </p>
+              <a href="#" class="btn text-success text-decoration-underline"
+                >Zobacz nasze realizacje <i class="bi bi-arrow-right"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Section-3-->
+
+    <div class="container-fluid custom-container-s3">
+      <div class="row first-row">
+        <!-- Left Column -->
+        <div class="col-md-6 img-section">
+          <img src="Zdjecie8.jpg" alt="Image" class="img-fluid img-container" />
+        </div>
+
+        <!-- Right Column -->
+        <div class="col-md-6 centered-column" id="s3-col1">
+          <div class="text-area-s3">
+            <p class="text-area-header f-12 inter c-grey">O firmie</p>
+            <h1 class="montse f-48 c-grey">
+              Tworzymy<br />z <span class="fst-italic"></span>pasją
+            </h1>
+            <p class="w-75 text-area-s3-par c-grey f-16 inter">
+              Każdy projekt to nowe wyzwanie. Dlatego nasz zespół tworzą
+              wykwalifikowani projektanci oraz architekci, których zadaniem jest
+              rozpoznanie i realizacja potrzeb każdego Klienta. Nasza
+              specjalizacja to przestrzenie nowoczesne, które charakteryzuje
+              minimalizm, geometria i elegancka prostota. Tworzymy ogrody
+              małoobsługowe, dostosowane do współczesnego trybu życia.
+            </p>
+            <button
+              class="btn btn-outline-light me-5 rounded-pill c-grey inter f-16"
+              id="button-2"
+            >
+              Poznaj nas bliżej <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---Section-4-->
+
+    <div class="container-fluid s4-con">
+      <div class="row s4-row">
+        <div class="col-md-8">
+          <div class="s4-col1">
+            <div class="row">
+              <div class="col-md-8 col-sm-12">
+                <div class="s4-col2">
+                  <h1 class="montse f-40 c-grey">
+                    Zostańmy w kontakcie! <br />Znajdziesz nas na
+                    <span class="c-grey inter-bold f-40">Instagramie</span>.
+                  </h1>
+                </div>
+              </div>
+              <div class="col-md-2 col-sm-12">
+                <div class="s4-col3">
+                  <p class="f-16 inter">Śledź nasze najnowsze realizacje!</p>
+                  <a href="#" class="btn text-success btn-light rounded-pill"
+                    >Instagram</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Section-5-->
+
+    <script src="https://cdn.jsdelivr.net/npm/macy@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Get the placeholder element
+      const placeholder = document.getElementById("placeholder");
+
+      // Function to toggle the visibility of the placeholder
+      function togglePlaceholder() {
+        if (placeholder.style.display === "none") {
+          placeholder.style.display = "block";
+        } else {
+          placeholder.style.display = "none";
+        }
+      }
+
+      // Attach the function to the button's click event
+      document
+        .getElementById("toggleButton")
+        .addEventListener("click", togglePlaceholder);
+    </script>
+  </body>
+</html>
